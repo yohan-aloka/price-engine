@@ -1,0 +1,2 @@
+INSERT INTO public.product(name, units_per_carton, carton_price, created_date_time, last_updated_date_time, created_user, last_updated_user) VALUES ('Penguin-ears', 20, 175.00, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, 'SYSTEM', 'SYSTEM');
+INSERT INTO public.product(name, units_per_carton, carton_price, created_date_time, last_updated_date_time, created_user, last_updated_user) VALUES ('Horseshoe', 5, 825.00, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, 'SYSTEM', 'SYSTEM');

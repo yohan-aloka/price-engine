@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /price-engine/api
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: price_engine_user
+    password: pegusr@001
+    url: jdbc:postgresql://localhost:5432/price_engine
+#    initialization-mode: always
+#    data: classpath:data.sql
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
